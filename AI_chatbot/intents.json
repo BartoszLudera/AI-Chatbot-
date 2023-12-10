@@ -1,0 +1,278 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Greetings",
+        "What's up?",
+        "Hiya!",
+        "Hey there",
+        "Nice to see you"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Greetings! How may I assist you?",
+        "Hey! How are you doing today?",
+        "Hello, nice of you to drop by!",
+        "Hi there! What brings you here?",
+        "Hey, good to see you! How can I assist you?",
+        "Hello! How may I be of service?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Farewell",
+        "Take care",
+        "Until next time",
+        "Catch you later",
+        "Have a good one",
+        "Adios",
+        "So long"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "Farewell! Take care.",
+        "Until next time, take care!",
+        "Catch you later! Have a good one.",
+        "Adios! Have a great day!",
+        "So long! See you soon.",
+        "Goodbye! It was nice chatting with you.",
+        "Take care! Until next time."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!",
+        "Appreciate it",
+        "You're a lifesaver",
+        "Thanks a bunch",
+        "I'm grateful",
+        "Many thanks",
+        "Big thank you"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "Glad I could assist!",
+        "You're welcome!",
+        "Always here to help!",
+        "It's my pleasure to assist you!",
+        "No problem at all!",
+        "I'm glad I could be of assistance!",
+        "Thank you for your kind words!"
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?",
+        "Show me your products",
+        "What's on your menu?",
+        "Can you list your items?",
+        "I want to see your merchandise",
+        "What are your offerings?",
+        "Display your goods",
+        "Tell me about your products"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea",
+        "Our products include coffee and tea",
+        "Our offerings consist of coffee and tea",
+        "Our menu features coffee and tea",
+        "You'll find coffee and tea in our selection",
+        "We specialize in coffee and tea",
+        "Our merchandise includes coffee and tea",
+        "You can explore our coffee and tea products",
+        "Our goods include a variety of coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?",
+        "What payment methods do you accept?",
+        "Is card payment accepted?",
+        "Can I use Apple Pay?",
+        "Do you support Google Pay?",
+        "Are checks accepted?",
+        "Can I pay online?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal",
+        "Card payments including VISA and Mastercard are accepted",
+        "We support various payment methods including Paypal",
+        "You can pay via VISA, Mastercard, and Paypal",
+        "We welcome Apple Pay and Google Pay",
+        "We accept online payments through our website",
+        "Unfortunately, we don't accept checks",
+        "Card payments and online transactions are accepted",
+        "You can use various payment methods including credit cards and online payment"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?",
+        "What's the delivery time?",
+        "When will my order arrive?",
+        "Delivery timeframe?",
+        "Shipping duration?",
+        "When can I expect my package?",
+        "How much time for delivery?",
+        "Expected delivery time?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days",
+        "Your order should arrive within 2-4 days",
+        "The delivery time frame is 2-4 days",
+        "You can expect your package in 2-4 days",
+        "Usually, delivery occurs within 2-4 days",
+        "Our standard shipping duration is 2-4 days",
+        "Your package will arrive in 2-4 days",
+        "Delivery typically takes 2-4 days",
+        "The expected delivery time is 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "Make me laugh!",
+        "I need a laugh",
+        "Share a funny story",
+        "Humor me!",
+        "Give me a chuckle",
+        "I could use some humor",
+        "Entertain me with a joke"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "Why don't scientists trust atoms? Because they make up everything.",
+        "What do you call a fake noodle? An impasta.",
+        "Why did the scarecrow win an award? Because he was outstanding in his field.",
+        "What's orange and sounds like a parrot? A carrot.",
+        "I told my wife she should embrace her mistakes. She gave me a hug.",
+        "Parallel lines have so much in common. It's a shame they'll never meet.",
+        "Why don't skeletons fight each other? They don't have the guts.",
+        "How do you organize a space party? You planet."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where are you located?",
+        "What's your address?",
+        "Where can I find you?",
+        "Give me directions",
+        "I need your location",
+        "Where exactly are you?",
+        "Could you tell me your whereabouts?",
+        "What's the physical address?",
+        "Tell me where you're situated",
+        "Where is your store?"
+      ],
+      "responses": [
+        "We are located at 123 Main Street, City, State.",
+        "Our address is 123 Main Street, City, State.",
+        "You can find us at 123 Main Street, City, State.",
+        "Here are the directions: 123 Main Street, City, State.",
+        "Our store is situated at 123 Main Street, City, State.",
+        "123 Main Street, City, State - that's where you'll find us.",
+        "You'll locate us at 123 Main Street, City, State.",
+        "For our physical location, it's 123 Main Street, City, State.",
+        "123 Main Street, City, State is where our store is located.",
+        "To find us, head to 123 Main Street, City, State."
+      ]
+    },
+    {
+      "tag": "business_hours",
+      "patterns": [
+        "What are your opening hours?",
+        "When are you open?",
+        "What are your business hours?",
+        "When can I visit?",
+        "Operating hours?",
+        "Hours of operation?",
+        "Time you open and close?",
+        "When can I come by?",
+        "Are you open today?",
+        "What time do you close?"
+      ],
+      "responses": [
+        "We are open from 9 AM to 6 PM, Monday to Friday.",
+        "Our business hours are 9 AM to 6 PM, Monday to Friday.",
+        "You can visit us between 9 AM and 6 PM, Monday to Friday.",
+        "We operate from 9 AM to 6 PM, Monday to Friday.",
+        "Our hours of operation are from 9 AM to 6 PM, Monday to Friday.",
+        "We open at 9 AM and close at 6 PM, Monday to Friday.",
+        "Feel free to come by anytime between 9 AM and 6 PM, Monday to Friday.",
+        "Yes, we're open today from 9 AM to 6 PM.",
+        "We close at 6 PM today.",
+        "Our closing time is 6 PM today."
+      ]
+    },
+    {
+      "tag": "recommendation",
+      "patterns": [
+        "Can you recommend something?",
+        "What's popular here?",
+        "Any recommendations?",
+        "Can you recommend something?",
+        "What's popular here?",
+        "Any recommendations?",
+        "I need a suggestion",
+        "Could you suggest something for me?",
+        "What do people usually like?",
+        "Do you have any favorites?",
+        "What's the best item you offer?",
+        "Can you suggest a top choice?",
+        "What's the most popular product?"
+      ],
+      "responses": [
+        "Our most popular item is our special blend coffee.",
+        "Customers love our green tea. It's a popular choice.",
+        "The special blend coffee is highly recommended by many.",
+        "Our top suggestion is the green tea.",
+        "The most popular choice among customers is our special blend coffee.",
+        "Many customers prefer our green tea. It's a favorite.",
+        "Our best-seller is the special blend coffee.",
+        "The green tea is a highly recommended option.",
+        "You might enjoy our special blend coffee, which is a customer favorite.",
+        "One of our top picks is the green tea."
+      ]
+    }
+  ]
+}
